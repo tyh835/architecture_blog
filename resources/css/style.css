@@ -23,6 +23,11 @@ img {
   padding: 0px !important;
 }
 
+.headline img {
+  width: 320px;
+  height: auto;
+}
+
 /* set 1: repurposed living */
 .a {
 	grid-area: 1 / 3 / 5 / 13;
@@ -102,7 +107,7 @@ footer {
   align-self: end;
 }
 
-.headLine {
+.headline {
   margin-top: 5vh;
   height: 20vh;
   text-align: center;
