@@ -71,6 +71,10 @@
       grid-template: repeat(26, 1fr) / repeat(12, 1fr);
     }
 
+    @media (min-width: 1000px) {
+      width: 900px;
+    }
+
     /* set 1: repurposed living */
     .a {
       width: 100%;
