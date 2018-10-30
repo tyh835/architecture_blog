@@ -1,0 +1,228 @@
+#app {
+  width: 90%;
+  margin: auto;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2em;
+
+  .not-found {
+    width: 500px;
+    margin: 3rem auto;
+    text-align: center;
+    line-height: 2;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .gatsby-image-wrapper {
+      width: 300px;
+      height: auto;
+      margin: 2rem auto;
+    }
+  }
+
+  @media (min-width: 1150px) {
+    width: 80%;
+    margin: auto;
+  }
+
+  .headline {
+    margin-top: 5vh;
+    height: 20vh;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 120%;
+    margin-bottom: 10vh;
+
+    img {
+      width: 280px;
+      height: auto;
+    }
+  }
+
+  .box {
+    font-size: 90%;
+    padding: 15px;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
+    background-color: #FEFEFE;
+    opacity: 0.75;
+
+    @media (min-width: 600px) {
+      font-size: 2.2rem;
+    }
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+    background-color: #FEFEFE;
+    opacity: 0.75;
+
+    @media (min-width: 600px) {
+      font-size: 1.1rem;
+    }
+  }
+
+  .grid {
+    display: grid;
+    width: 100%;
+    height: 1600px;
+    margin: auto;
+    grid-template: repeat(16, 1fr) / repeat(12, 1fr);
+    justify-items: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      padding: 0px;
+    }
+
+    @media (min-width: 600px) {
+      height: 2600px;
+      grid-template: repeat(26, 1fr) / repeat(12, 1fr);
+    }
+
+    /* set 1: repurposed living */
+    .a {
+      width: 100%;
+      height: 100%;
+      grid-area: 1 / 3 / 13 / 13;
+
+      @media (min-width: 600px) {
+        grid-area: 1 / 3 / 5 / 13;
+      }
+    }
+    .b {
+      grid-area: 1 / 2 / 3 / 5;
+      background-color: #FEFEFE;
+      opacity: 0.75;
+
+      @media (min-width: 600px) {
+        grid-area: 1 / 2 / 3 / 5;
+      }
+    }
+    .c {
+      grid-area: 2 / 10 / 4 / 12;
+      background-color: #FEFEFE;
+      opacity: 0.75;
+
+      @media (min-width: 600px) {
+        grid-area: 3 / 2 / 3 / 4;
+      }
+    }
+
+    /* set 2: angles */
+    .d {
+      width: 100%;
+      height: 100%;
+      grid-area: 3 / 1 / 12 / 9;
+
+      @media (min-width: 600px) {
+        grid-area: 4 / 1 / 11 / 7;
+      }
+    }
+    .e {
+      grid-area: 4 / 9 / 5 / 11;
+
+      @media (min-width: 600px) {
+        grid-area: 6 / 5 / 7 / 10;
+      }
+    }
+    .f {
+      grid-area: 5 / 6 / 7 / 8;
+
+      @media (min-width: 600px) {
+        grid-area: 7 / 6 / 10 / 8;
+      }
+    }
+
+    /* set 3: pattern play */
+    .g {
+      width: 100%;
+      height: 100%;
+      grid-area: 7 / 3 / 11 / 13;
+
+      @media (min-width: 600px) {
+        grid-area: 10 / 3 / 15 / 13;
+      }
+    }
+    .h {
+      grid-area: 6 / 2 / 8 / 5;
+
+      @media (min-width: 600px) {
+        grid-area: 11 / 2 / 12 / 5;
+      }
+    }
+    .i {
+      grid-area: 8 / 10 / 10 / 12;
+
+      @media (min-width: 600px) {
+        grid-area: 12 / 2 / 14 / 4;
+      }
+    }
+
+    /* set 4: healing house */
+    .j {
+      width: 100%;
+      height: 100%;
+      grid-area: 9 / 1 / 12 / 7;
+
+      @media (min-width: 600px) {
+        grid-area: 14 / 1 / 21 / 7;
+      }
+    }
+    .k {
+      grid-area: 9 / 5 / 11 / 9;
+
+      @media (min-width: 600px) {
+        grid-area: 15 / 5 / 17 / 9;
+      }
+    }
+    .l {
+      grid-area: 10 / 6 / 13 / 8;
+
+      @media (min-width: 600px) {
+        grid-area: 17 / 6 / 18 / 8;
+      }
+    }
+
+    /* set 5: curved perfection */
+    .m {
+      width: 100%;
+      height: 100%;
+      grid-area: 12 / 3 / 14 / 13;
+
+      @media (min-width: 600px) {
+        grid-area: 19 / 3 / 25 / 13;
+      }
+    }
+    .n {
+      grid-area: 12 / 2 / 14 / 5;
+
+      @media (min-width: 600px) {
+        grid-area: 21 / 2 / 22 / 5;
+      }
+    }
+    .o {
+      grid-area: 13 / 10 / 15 / 12;
+
+      @media (min-width: 600px) {
+        grid-area: 22 / 2 / 24 / 4;
+      }
+    }
+    footer {
+      grid-area: 15 / 1 / 16 / span 12;
+      align-self: end;
+
+      @media (min-width: 600px) {
+        grid-area: 25 / 1 / 26 / span 12;
+      }
+    }
+  }
+}
