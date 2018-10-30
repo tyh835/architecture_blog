@@ -6,9 +6,7 @@ import '../scss/style.scss';
 const Layout = ({ children }) => (
   <>
     <Helmet />
-    <div id="app">
-      {children}
-    </div>
+    <div id="app">{children}</div>
   </>
 );
 
