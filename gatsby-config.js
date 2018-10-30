@@ -22,7 +22,7 @@ module.exports = {
         background_color: '#FEFEFE',
         theme_color: '#FEFEFE',
         display: 'minimal-ui',
-        icon: `${__dirname}/src/images/gatsby-icon.png`
+        icon: `${__dirname}/src/images/icon.png`
       }
     },
     'gatsby-plugin-sass',
