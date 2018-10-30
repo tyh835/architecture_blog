@@ -4,23 +4,6 @@
   font-family: 'Roboto Slab', serif;
   font-size: 1.2em;
 
-  .not-found {
-    width: 500px;
-    margin: 3rem auto;
-    text-align: center;
-    line-height: 2;
-
-    h1 {
-      font-size: 2rem;
-    }
-
-    .gatsby-image-wrapper {
-      width: 300px;
-      height: auto;
-      margin: 2rem auto;
-    }
-  }
-
   @media (min-width: 1150px) {
     width: 80%;
     margin: auto;
@@ -225,4 +208,23 @@
       }
     }
   }
+
+  .not-found {
+    width: 500px;
+    margin: 3rem auto;
+    text-align: center;
+    line-height: 2;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .gatsby-image-wrapper {
+      width: 300px;
+      height: auto;
+      margin: 2rem auto;
+    }
+  }
+
+
 }
