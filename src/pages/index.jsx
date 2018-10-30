@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => (
       <img src={titleImg} alt="Angles" />
       <p> An architecture blog </p>
     </header>
-    <main>
+    <main className="grid">
       <div className="a__image">
         <Img fluid={data.image1.childImageSharp.fluid} alt="Hamburg, Germany. Repurposed Housing" />
       </div>
