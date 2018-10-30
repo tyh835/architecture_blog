@@ -3,15 +3,15 @@ import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import Layout from '../components/Layout.jsx';
 
-import title from '../images/title.png';
+import titleImg from '../images/title.png';
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <div className="headline">
-      <img src={title} alt="Angles" />
+    <header className="headline">
+      <img src={titleImg} alt="Angles" />
       <p> An architecture blog </p>
-    </div>
-    <div className="grid">
+    </header>
+    <main className="grid">
       <div className="box a">
         <Img fluid={data.image1.childImageSharp.fluid} alt="Hamburg, Germany. Repurposed Housing" />
       </div>
@@ -66,7 +66,7 @@ const IndexPage = ({ data }) => (
         Condominium
       </div>
       <footer>By Tony Han</footer>
-    </div>
+    </main>
   </Layout>
 );
 
