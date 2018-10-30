@@ -1,14 +1,16 @@
-.box {
+%box {
   font-size: 90%;
   padding: 15px;
 }
 
 %image {
+  @extend %box;
   width: 100%;
   height: 100%;
 }
 
 %title {
+  @extend %box;
   font-weight: 700;
   font-size: 1.6rem;
   font-family: 'Playfair Display', serif;
@@ -23,6 +25,7 @@
 }
 
 %subtitle {
+  @extend %box;
   font-size: 0.8rem;
   background-color: #FEFEFE;
   opacity: 0.75;

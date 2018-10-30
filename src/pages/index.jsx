@@ -7,60 +7,60 @@ import titleImg from '../images/title.png';
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <header className="headline">
+    <header>
       <img src={titleImg} alt="Angles" />
       <p> An architecture blog </p>
     </header>
-    <main className="grid">
-      <div className="box a__image">
+    <main>
+      <div className="a__image">
         <Img fluid={data.image1.childImageSharp.fluid} alt="Hamburg, Germany. Repurposed Housing" />
       </div>
-      <div className="box a__title">
+      <div className="a__title">
         Repurposed Living
       </div>
-      <div className="box a__subtitle">
+      <div className="a__subtitle">
         Bassicarella Architectes, Hamburg, Germany Repurposed Housing
       </div>
 
-      <div className="box b__image">
+      <div className="b__image">
         <Img fluid={data.image2.childImageSharp.fluid} alt="Madrid, Spain. Office Building" />
       </div>
-      <div className="box b__title">
+      <div className="b__title">
         Angles de Pyramid Interiors
       </div>
-      <div className="box b__subtitle">
+      <div className="b__subtitle">
         Bassicarella Architectes,
         Madrid, Spain
         Office Building
       </div>
 
-      <div className="box c__image">
+      <div className="c__image">
         <Img fluid={data.image3.childImageSharp.fluid} alt="Dubai, UAE Museum" />
       </div>
-      <div className="box c__title">
+      <div className="c__title">
         Intricate Patter Play
       </div>
-      <div className="box c__subtitle">
+      <div className="c__subtitle">
         Bassicarella Architectes, Dubai, UAE Museum
       </div>
-      <div className="box d__image">
+      <div className="d__image">
         <Img fluid={data.image4.childImageSharp.fluid} alt="Beijing, China. Temple" />
       </div>
-      <div className="box d__title">
+      <div className="d__title">
         Healing House Path
       </div>
-      <div className="box d__subtitle">
+      <div className="d__subtitle">
         Bassicarella Architectes,
         Beijing, China
         Temple
       </div>
-      <div className="box e__image">
+      <div className="e__image">
         <Img fluid={data.image5.childImageSharp.fluid} alt="Buenos Aires, Argentina. Condominium" />
       </div>
-      <div className="box e__title">
+      <div className="e__title">
         Curved Perfection
       </div>
-      <div className="box e__subtitle">
+      <div className="e__subtitle">
         Bassicarella Architectes,
         Buenos Aires, Argentina
         Condominium

@@ -4,7 +4,7 @@ import GatsbyImage from '../components/GatsbyImage.jsx';
 
 const NotFoundPage = () => (
   <Layout>
-    <main className="not-found">
+    <main>
       <h1>404 NOT FOUND</h1>
       <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
       <GatsbyImage />
