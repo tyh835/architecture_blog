@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from './Helmet.jsx';
-
-import '../scss/reset.scss';
 import '../scss/style.scss';
 
 const Layout = ({ children }) => (
