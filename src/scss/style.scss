@@ -55,9 +55,9 @@
   .grid {
     display: grid;
     width: 100%;
-    height: 1600px;
+    height: 2000px;
     margin: auto;
-    grid-template: repeat(16, 1fr) / repeat(12, 1fr);
+    grid-template: repeat(20, 1fr) / repeat(12, 1fr);
     justify-items: center;
     align-items: center;
 
@@ -89,15 +89,17 @@
       grid-area: 1 / 2 / 3 / 5;
       background-color: #FEFEFE;
       opacity: 0.75;
+      z-index: 3;
 
       @media (min-width: 600px) {
         grid-area: 1 / 2 / 3 / 5;
       }
     }
     .c {
-      grid-area: 2 / 10 / 4 / 12;
+      grid-area: 2 / 2 / 4 / 4;
       background-color: #FEFEFE;
       opacity: 0.75;
+      z-index: 3;
 
       @media (min-width: 600px) {
         grid-area: 3 / 2 / 3 / 4;
@@ -108,21 +110,23 @@
     .d {
       width: 100%;
       height: 100%;
-      grid-area: 3 / 1 / 12 / 9;
+      grid-area: 4 / 1 / 16 / 10;
 
       @media (min-width: 600px) {
         grid-area: 4 / 1 / 11 / 7;
       }
     }
     .e {
-      grid-area: 4 / 9 / 5 / 11;
+      grid-area: 4 / 10 / 5 / 12;
+      z-index: 3;
 
       @media (min-width: 600px) {
         grid-area: 6 / 5 / 7 / 10;
       }
     }
     .f {
-      grid-area: 5 / 6 / 7 / 8;
+      grid-area: 5 / 10 / 7 / 12;
+      z-index: 3;
 
       @media (min-width: 600px) {
         grid-area: 7 / 6 / 10 / 8;
@@ -133,7 +137,7 @@
     .g {
       width: 100%;
       height: 100%;
-      grid-area: 7 / 3 / 11 / 13;
+      grid-area: 8 / 3 / 11 / 13;
 
       @media (min-width: 600px) {
         grid-area: 10 / 3 / 15 / 13;
@@ -158,21 +162,21 @@
     .j {
       width: 100%;
       height: 100%;
-      grid-area: 9 / 1 / 12 / 7;
+      grid-area: 11 / 1 / 14 / 9;
 
       @media (min-width: 600px) {
         grid-area: 14 / 1 / 21 / 7;
       }
     }
     .k {
-      grid-area: 9 / 5 / 11 / 9;
+      grid-area: 10 / 8 / 14 / 12;
 
       @media (min-width: 600px) {
         grid-area: 15 / 5 / 17 / 9;
       }
     }
     .l {
-      grid-area: 10 / 6 / 13 / 8;
+      grid-area: 12 / 8 / 15 / 12;
 
       @media (min-width: 600px) {
         grid-area: 17 / 6 / 18 / 8;
@@ -183,32 +187,34 @@
     .m {
       width: 100%;
       height: 100%;
-      grid-area: 12 / 3 / 14 / 13;
+      grid-area: 15 / 3 / 18 / 13;
 
       @media (min-width: 600px) {
         grid-area: 19 / 3 / 25 / 13;
       }
     }
     .n {
-      grid-area: 12 / 2 / 14 / 5;
+      grid-area: 14 / 1 / 17 / 5;
 
       @media (min-width: 600px) {
         grid-area: 21 / 2 / 22 / 5;
       }
     }
     .o {
-      grid-area: 13 / 10 / 15 / 12;
+      grid-area: 15 / 1 / 18 / 5;
 
       @media (min-width: 600px) {
         grid-area: 22 / 2 / 24 / 4;
       }
     }
     footer {
-      grid-area: 15 / 1 / 16 / span 12;
+      grid-area: 17 / 1 / 19 / span 12;
       align-self: end;
+      font-size: 1rem;
 
       @media (min-width: 600px) {
         grid-area: 25 / 1 / 26 / span 12;
+        font-size: 1.5rem;
       }
     }
   }
