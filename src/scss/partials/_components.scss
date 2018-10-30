@@ -1,0 +1,34 @@
+.box {
+  font-size: 90%;
+  padding: 15px;
+}
+
+%image {
+  width: 100%;
+  height: 100%;
+}
+
+%title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+  background-color: #FEFEFE;
+  opacity: 0.75;
+  z-index: 3;
+
+  @media (min-width: 600px) {
+    font-size: 2.2rem;
+  }
+}
+
+%subtitle {
+  font-size: 0.8rem;
+  background-color: #FEFEFE;
+  opacity: 0.75;
+  z-index: 3;
+
+  @media (min-width: 600px) {
+    font-size: 1.1rem;
+  }
+}
