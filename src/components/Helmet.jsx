@@ -13,8 +13,7 @@ export default () => (
         }
       }
     `}
-  >
-    {data => (
+    render={data => (
       <Helmet
         title={data.site.siteMetadata.title}
         meta={[
@@ -44,5 +43,5 @@ export default () => (
         <html lang="en" />
       </Helmet>
     )}
-  </StaticQuery>
+  />
 );
