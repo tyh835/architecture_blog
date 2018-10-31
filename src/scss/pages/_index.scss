@@ -17,9 +17,9 @@
   .grid {
     display: grid;
     width: 100%;
-    height: 1800px;
+    height: 1900px;
     margin: auto;
-    grid-template: repeat(18, 1fr) / repeat(12, 1fr);
+    grid-template: repeat(19, 1fr) / repeat(12, 1fr);
     justify-items: center;
     align-items: center;
 
@@ -189,7 +189,7 @@
     }
 
     footer {
-      grid-area: 17 / 1 / 19 / span 12;
+      grid-area: 18 / 1 / 19 / span 12;
       align-self: end;
       font-size: 1rem;
 
