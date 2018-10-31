@@ -47,7 +47,7 @@ const Grid = ({ data }) => {
       <div className="d__subtitle">
         Bassicarella Architectes, Beijing, China Temple
       </div>
-      
+
       <div className="e__image">
         <Img
           fluid={data.image5.childImageSharp.fluid}
