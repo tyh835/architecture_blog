@@ -36,6 +36,7 @@ const Grid = ({ data }) => {
       <div className="c__subtitle">
         Bassicarella Architectes, Dubai, UAE Museum
       </div>
+
       <div className="d__image">
         <Img
           fluid={data.image4.childImageSharp.fluid}
@@ -46,6 +47,7 @@ const Grid = ({ data }) => {
       <div className="d__subtitle">
         Bassicarella Architectes, Beijing, China Temple
       </div>
+      
       <div className="e__image">
         <Img
           fluid={data.image5.childImageSharp.fluid}
