@@ -24,7 +24,6 @@
     "graphql",
     "static"
   ],
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "clean": "rm -rf .cache && rm -rf public",
